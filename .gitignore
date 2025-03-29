@@ -1,0 +1,19 @@
+# ignore database stuff
+db.sqlite3
+
+# ignore pycache folders
+__pycache__/
+migrations/
+
+# ignore static frontend files
+Website/frontend/static/frontend/*
+
+# ignore installed node modules
+node_modules/
+
+# uploaded images, but not folder
+Website/media/post_images/*
+
+.env
+
+!.gitkeep
